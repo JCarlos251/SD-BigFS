@@ -1,0 +1,3 @@
+Faça uma aplicação em python cliente servidor que faça as seguintes operações, as operações são exibidas como um menu do lado do cliente: 
+1°: listar os arquivos de um diretório, o diretório é um parâmetro, se o parâmetro for vazio, considerar o diretório atual.
+2°: deletar um arquivo de um diretório, o diretório é um parâmetro que se for vazio será considerado o diretório atual, e o outro parâmetro é o nome do arquivo
