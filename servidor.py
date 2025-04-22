@@ -59,13 +59,7 @@ while True:
         conn.send(msg.encode())
 
     elif comando_list[0] == 'get':
-        caminho = comando_list[1]
-        if os.path.isfile(caminho):
-            with open(caminho, 'rb') as f:
-                dados = f.read()
-            conn.send(dados)  # envia o conteúdo do arquivo
-        else:
-            conn.send("Arquivo não encontrado.".encode())
+        conn.send("get em construção")
 
     else:
         conn.send("Comando inválido.".encode())
